@@ -381,7 +381,7 @@
     <div class="timer-container">
         <div class="timer">
             <span id="d">0</span> day , <span id="h">0</span> hrs, <span id="m">0</span> min, <br>
-            <span id="s" class="red">0</span> sec before
+            <span id="s" class="red">0</span> sec remaining
             <div style="font-size: 14px; margin-top: 5px; color: #555;">Ramadan 1447 AH</div>
         </div>
     </div>
@@ -627,7 +627,7 @@
         }, { threshold: 0.5 });
         observer.observe(msgBox);
 
-        const target = new Date("Feb 19, 2026 18:16:00").getTime();
+        const target = new Date("Mar 20, 2026 18:16:00").getTime();
         setInterval(() => {
             const now = new Date().getTime();
             const diff = target - now;
@@ -650,3 +650,4 @@
 </body>
 
 </html>
+
